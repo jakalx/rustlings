@@ -13,7 +13,7 @@ fn main() {
 
     // Fix without changing the following line
     match y {
-        Some(p) => println!("Co-ordinates are {},{} ", p.x, p.y),
+        Some(ref p) => println!("Co-ordinates are {},{} ", p.x, p.y),
         _ => println!("no match"),
     }
     y; // Fix without deleting this line.
