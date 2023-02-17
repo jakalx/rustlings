@@ -58,6 +58,7 @@
             rustlings
             rustfmt
             clippy
+            evcxr
           ] ++ cargoBuildInputs;
         };
       });
